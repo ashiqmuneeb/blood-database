@@ -2,17 +2,8 @@
 <html>
 <head>
     <title>Blood Donation Registration</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-            padding: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+       
 </head>
 <body>
     <h2>Blood Donation Registration</h2>
@@ -68,6 +59,8 @@
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
+
+
     }
 
     // Fetch registered users from the database
