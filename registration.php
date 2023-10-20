@@ -9,6 +9,7 @@
     <h2>Blood Donation Registration</h2>
 
     <h3>Registration Form</h3>
+    <div id="background-image">
     <form method="POST" action="registration.php">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -27,7 +28,7 @@
 
         <input type="submit" name="submit" value="Register">
     </form>
-
+</div>
     <h3>Registered Users</h3>
     <?php
     // Database connection details
